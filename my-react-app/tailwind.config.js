@@ -5,7 +5,16 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'bgText-programs': "url('/bgText-programs.png')",
+        'footer-texture': "url('/img/footer-texture.png')",
+      }
+    },
+    container: {
+      padding: '2rem',
+      margin:"0rem"
+    },
   },
   plugins: [],
 }
