@@ -1,7 +1,7 @@
 import { GrLinkNext } from "react-icons/gr";
 import { GrLinkPrevious } from "react-icons/gr";
-import ProgramCard from "./ExploreProgramCards/ProgramCard";
-import BgTextProgram from "./UI/BgText-program";
+import ProgramCard from "./ExploreProgramCards/ProgramCard"
+import BgTextProgram from "../UI/BgText-program";
 
 const Main = () => {
   return (

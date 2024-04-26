@@ -10,11 +10,7 @@ export default {
         'bgText-programs': "url('/bgText-programs.png')",
         'footer-texture': "url('/img/footer-texture.png')",
       }
-    },
-    container: {
-      padding: '2rem',
-      margin:"0rem"
-    },
+    }
   },
   plugins: [],
 }
