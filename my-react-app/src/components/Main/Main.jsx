@@ -1,3 +1,4 @@
+import ChooseYourPlan from "./ChooseYourPlanSection/ChooseYourPlan";
 import ExploreProgramTitle from "./ExploreProgramSection/ExploreProgramTitle";
 import StartYourJourney from "./StartYourJourneySection/StartYourJourney";
 import TrackerApp from "./TrackerAppSection/TrackerApp";
@@ -8,6 +9,7 @@ const Main = () => {
       <ExploreProgramTitle />
       <StartYourJourney />
       <TrackerApp />
+      <ChooseYourPlan />
     </div>
   );
 };
