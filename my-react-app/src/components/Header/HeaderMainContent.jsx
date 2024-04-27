@@ -2,10 +2,10 @@ export default function HeaderMainContent() {
   return (
     <main className="relative z-30">
       <div className="my-10 pl-[6.5rem]">
-        <h1 className="p-0 font-bold text-[#EAEAEA] text-[150px] text-left leading-none">
+        <h1 className="drop-shadow-2xl p-0 font-bold text-[#EAEAEA] text-[150px] text-left leading-none">
           Be
         </h1>
-        <h1 className="font-bold text-[#AF1E1E] text-[150px] leading-none">
+        <h1 className="drop-shadow-2xl font-bold text-[#AF1E1E] text-[150px] leading-none">
           Focused
         </h1>
       </div>

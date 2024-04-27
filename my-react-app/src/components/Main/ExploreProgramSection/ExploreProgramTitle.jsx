@@ -7,9 +7,9 @@ export default function ExploreProgramTitle() {
   return (
     <>
       {" "}
-      <BgTextProgram></BgTextProgram>
+      <BgTextProgram path={"bgText-program.png"}></BgTextProgram>
       <div className="relative z-20 flex justify-between mb-14 align-middle title-explore-our-pro">
-        <h1 className="font-bold text-4xl text-white">Explore Our programs</h1>
+        <h1 className="drop-shadow-2xl font-bold text-6xl text-white">Explore Our Programs</h1>
         <div className="cardBtn-next-previous">
           <button
             type="button"

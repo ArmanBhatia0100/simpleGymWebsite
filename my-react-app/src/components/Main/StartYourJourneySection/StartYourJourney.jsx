@@ -8,7 +8,7 @@ export default function StartYourJourney() {
     <section className="my-24">
       <h1
         data-title="start-your-journey-title"
-        className="font-extrabold text-6xl text-center text-white"
+        className="drop-shadow-2xl font-extrabold text-6xl text-center text-white"
       >
         Get Into The Best Version Of You,<br></br> Start your journey Today
       </h1>

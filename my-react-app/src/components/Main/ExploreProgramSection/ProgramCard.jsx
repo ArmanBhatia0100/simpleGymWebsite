@@ -2,7 +2,7 @@ import { FaSmileBeam } from "react-icons/fa";
 
 const ProgramCard = () => {
   return (
-    <div className="program-card mx-2 card">
+    <div className="drop-shadow-2xl program-card mx-2 card">
       <div
         href="#"
         className="bg-[#535353] dark:bg-gray-800 shadow-lg p-6 rounded-lg max-w-sm"
