@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { FaSmileBeam } from "react-icons/fa";
 
 export default function StartYourJourneyCard(props) {
@@ -5,7 +6,7 @@ export default function StartYourJourneyCard(props) {
     <div data-set="card-container" className="relative w-[31.25rem] max-w-[31.25rem]">
       
       <div data-set="img-container" className="overflow-hidden">
-        <img className="object-bottom shadow-black shadow-lg rounded-3xl w-[38.5rem] h-[32rem] object-cover" src={props.img} alt={props.imgAlt} />
+        <Image width={"616"} height={512} className="object-bottom shadow-black shadow-lg rounded-3xl w-[38.5rem] h-[32rem] object-cover" src={props.img} alt={props.imgAlt} />
       </div>
       <div data-set="smallCard" className="-bottom-20 left-7 absolute flex content-start bg-[#262626] shadow-black shadow-lg p-3 rounded-xl max-w-[28rem]">
       <FaSmileBeam

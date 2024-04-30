@@ -1,4 +1,6 @@
-import trackerApp from "../../../../public/trackerApp.png";
+import Image from "next/image";
+import trackerApp from "@/public/trackerApp.png";
+
 // TODO:
 // Change the tracker image to high quality.
 
@@ -13,7 +15,7 @@ export default function TrackerApp() {
         Track your progress.
       </h1>
       <div className="image-container">
-        <img className="relative z-10" src={trackerApp.src} alt="Tracker App" />
+        <Image width={500} height={512} className="relative z-10" src={trackerApp.src} alt="Tracker App" />
       </div>
     </section>
   );
